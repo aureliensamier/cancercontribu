@@ -286,7 +286,7 @@ mysqli_query($lien, 'set names utf8');
 		<br/>
 		<div class="row center">
 			<div class="col s6">
-			<a href="#"><img src="../assets/images/bulle-articles.png/" alt="bulle discussion" width="38.11" height="28.9">20 commentaires</a>
+			<a href="#"><img src="../assets/images/bulle-articles2.png/" alt="bulle discussion" width="38.11" height="28.9"><b class="com-20">20 commentaires</b></a>
 				</div>
 		</div>
 		<hr class="barre">
@@ -297,10 +297,10 @@ mysqli_query($lien, 'set names utf8');
 		<br/>
 		<div class="row">
 			<div class="col s2">
-				<img src="../assets/images/persona-com1.png/" alt="persona commentaire premier" width="56" height="56">
+				<img src="../assets/images/persona-com1.png/" alt="persona commentaire premier" width="40" height="56">
 			</div>
 			<div class="col s2">
-				<p class="pseudo-com">Lili G</p>
+				<b class="pseudo-com">Lili G</b>
 				<p class="statut-com">Aidant</p>
 			</div>
 			<div class="col s8"></div>
@@ -316,7 +316,7 @@ mysqli_query($lien, 'set names utf8');
 			<br>
 			<br/>
 			<div class="row left">
-			<p class="chiffre-like">12</p> <img src="../assets/images/pouce.png" alt="pouce j'aime" width="17.66" height="18.52">
+			<p class="chiffre-like"><b class="like-com">12</b></p> <img src="../assets/images/pouce.png" alt="pouce j'aime" width="17.66" height="18.52">
 			</div>
 			<div class="row right">
 				<a href="#">Lire plus</a>
@@ -342,10 +342,10 @@ mysqli_query($lien, 'set names utf8');
 		<br/>
 		<div class="row">
 			<div class="col s2">
-				<img src="../assets/images/persona-com2.png/" alt="persona commentaire second" width="56" height="56">
+				<img src="../assets/images/persona-com2.png/" alt="persona commentaire second" width="40" height="56">
 			</div>
 			<div class="col s2">
-				<p class="pseudo-com">Margot R</p>
+				<b class="pseudo-com">Margot R</b>
 				<p class="statut-com">Patient</p>
 			</div>
 			<div class="col s8"></div>
@@ -361,7 +361,7 @@ mysqli_query($lien, 'set names utf8');
 			<br>
 			<br/>
 			<div class="row left">
-				<p class="chiffre-like">3</p> <img src="../assets/images/pouce.png" alt="pouce j'aime" width="17.66" height="18.52">
+				<p class="chiffre-like"><b class="like-com">3</b></p> <img src="../assets/images/pouce.png" alt="pouce j'aime" width="17.66" height="18.52">
 			</div>
 			<br>
 			<br/>
@@ -384,10 +384,10 @@ mysqli_query($lien, 'set names utf8');
 		<br/>
 		<div class="row">
 			<div class="col s2">
-				<img src="../assets/images/persona-com3.png/" alt="persona commentaire troisième" width="56" height="56">
+				<img src="../assets/images/persona-com3.png/" alt="persona commentaire troisième" width="40" height="56">
 			</div>
 			<div class="col s2">
-				<p class="pseudo-com">Dr John Smith</p>
+				<b class="pseudo-com">Dr John Smith</b>
 				<p class="statut-com">Oncologue<img src="../assets/images/valide.png" alt="validé" width="16" height="15.36"></p>
 
 			</div>
@@ -404,7 +404,7 @@ mysqli_query($lien, 'set names utf8');
 			<br>
 			<br/>
 			<div class="row left">
-				<p class="chiffre-like">4</p> <img src="../assets/images/pouce.png" alt="pouce j'aime" width="17.66" height="18.52">
+				<p class="chiffre-like"><b class="like-com">4</b></p> <img src="../assets/images/pouce.png" alt="pouce j'aime" width="17.66" height="18.52">
 			</div>
 			<br>
 			<br/>

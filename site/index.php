@@ -22,10 +22,12 @@ mysqli_query($lien, 'set names utf8');*/
 <body>
 <header class="header">
 	<input value="Menu" id="menu" class="header__inputMenu" type="button">
-	<a href="./index.php" class="header__logo"><img class="header__logoImg" src="../assets/images/logocancer.svg"
-	                                                alt="Logo"></a>
-	<button type="button" class="header__inputSearch"><img class="header__logoSearch" src="../assets/images/search.png"
-	                                                       alt="Logo"></button>
+	<a href="./index.php" class="header__logo">
+		<img class="header__logoImg" src="../assets/images/logocancer.svg" alt="Logo">
+	</a>
+	<button type="button" class="header__inputSearch">
+		<img class="header__logoSearch" src="../assets/images/search.png" alt="Logo">
+	</button>
 	<ul class="header__menu">
 		<li><a href="./index.php">Accueil</a></li>
 		<li><a href="#about">À propos de nous</a></li>
@@ -33,8 +35,9 @@ mysqli_query($lien, 'set names utf8');*/
 		<li><a href="#">Sondages</a></li>
 		<li><a href="#">Ressources</a></li>
 		<li><a href="#">Contact</a></li>
-		<li><a href="#" class="header__menuSpan">Se connecter</a></li>
-		<li><a href="#" class="header__menuSpan">S'inscrire</a></li>
+		<li class="header__menuSpan"><a href="#">Se connecter</a></li>
+		<li class="header__menuSpan header__menuSpan2"><a href="#" class="header__menuSpan--Inscription">S'inscrire</a>
+		</li>
 	</ul>
 </header>
 
