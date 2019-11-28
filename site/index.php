@@ -6,60 +6,83 @@ $lien = mysqli_connect($host, $user, $password, $bdd);
 mysqli_query($lien, 'set names utf8');
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8"/>
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-	<title>Food'n'Me</title>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="../styles/styles.css" rel="stylesheet"/>
-	<link href="../styles/reset.css" rel="stylesheet"/>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<link rel="shortcut icon" type="image/png" href="../assets/images/favIcon.jpg"/>
-</head>
-<body>
-<header class="header">
-	<a href="javascript:history.go(-1)" class="header__back"><img src="../assets/images/back.png" class="header__back" alt=""></a>
-	<a href="./index.php"><img src="../assets/images/logo.png" alt="" class="header__home"></a>
-</header>
+<!DOCTYPE HTML>
+<html lang="fr">
 
-<section class="index">
-	<div class="index__grille">
-		<nav class="index__grille--nav"></nav>
-		<nav class="index__grille--nav"></nav>
-		<nav class="index__grille--nav"></nav>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150990567-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-150990567-1');
+	</script>
+	<title>Cancer Contribution</title>
+	<link rel="stylesheet" href="./styles/styles.scss">
+	<noscript>
+		<link rel="stylesheet" href="./styles/styles.scss" /></noscript>
+
+
+	<!-- Referencement -->
+	<meta name="description" content="Cancer Contribution : Construire ensemble les pratiques de demain">
+	<meta name="keywords" content="Cancer Contribution : Construire ensemble les pratiques de demain">
+	<meta name="author" content="Aurélien SAMIER">
+	<meta name="robots" content="index">
+	<meta name="Indentifier-URL" content="https://www.cancercontribution.fr/">
+	<!-- END Référencement -->
+
+
+	<!-- Open Graph-->
+	<meta property="og:title" content="Cancer Contribution | Construire ensemble les pratiques de demain">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.cancercontribution.fr/">
+	<meta property="og:image" content="./images/logo-vectoriser-cancer.png">
+	<meta property="og:site_name" content="Cancer Contribution | Construire ensemble les pratiques de demain">
+	<meta property="og:description" content="Cancer Contribution : Construire ensemble les pratiques de demain">
+	<!-- END Open Graph-->
+
+	<!-- Twitter Cards-->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="https://www.cancercontribution.fr/" />
+	<meta name="twitter:title" content="Cancer Contribution | Construire ensemble les pratiques de demain" />
+	<meta name="twitter:description" content="Cancer Contribution : Construire ensemble les pratiques de demain" />
+	<meta name="twitter:image" content="./images/logo-vectoriser-cancer.png">
+	<!-- END Twitter Cards-->
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+	<!-- Code goes here -->
+
+	<div class="row center">
+		<div class="col s12 col m12 col l3">
+			<a href="/index.html/">Accueil</a>
+		</div>
+		<div class="col s12 col m12 col l3">
+			<a href="/ressources.html/">Ressources</a>
+		</div>
+		<div class="col s12 col m12 col l3">
+			<a href="/articles.html/">Articles</a>
+		</div>
+		<div class="col s12 col m12 col l3">
+			<a href="/forum.html/">Forum</a>
+		</div>
 	</div>
 
-<?php
-
-
-
-
-$categorie = 'select distinct ((id_categorie)), categorie_nom, restaurant_categorie from restaurant, categorie where categorie.id_categorie = restaurant.restaurant_categorie'; // Récupère toutes les catégories
-$query = mysqli_query($lien, $categorie);
-
- while ($result = mysqli_fetch_assoc($query)) // Recupère en block les résulats et les découpent en tableaux associatif petit à petit.
-{
-    $restaurants = "select * from restaurant where restaurant_categorie='".$result["id_categorie"]."' order by restaurant_nom";
-    $query_r = mysqli_query($lien, $restaurants);
-	echo ('<div class="index__grandContainer">');
-	echo '<button class="index__titreCategorie">' . $result['categorie_nom'] . '</button>';
-    echo ('<div class="index__containerOne">');
-	echo '<div class="index__container">';
-
-	while ($result_r = mysqli_fetch_assoc($query_r)) // Recupère en block les résulats et les découpent en tableaux associatif petit à petit.
-    {
-        echo '<a class="index__container--boxRestaurant"  href="article_detail.php?id_restaurant='.$result_r["id_restaurant"].'" style="background-image: url('.$result_r["restaurant_image"].')">';
-        echo '<h3 class="index__container__h3Title">' . $result_r['restaurant_nom'] . '</h3>';
-        echo '</a>';
-    }
-
-    echo ('</div>');
-	echo('</div>');
-    echo '</div>';
-}
-?>
-</section>
+	<!-- Code ends here -->
+	<script src="./scripts/index.js"></script>
 </body>
+
 </html>
