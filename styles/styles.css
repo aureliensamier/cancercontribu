@@ -1,3 +1,7 @@
+@import "index.css";
+@import "reset.css";
+@import "header.css";
+@import "articles.css";
 
 
 
@@ -40,3 +44,4 @@
     font-family: "RalewayLight";
     src: url("../assets/font/Raleway-light.ttf");
 }
+>>>>>>> f5c45ad5345d19b3d5e1753cf56aac04249b1116
