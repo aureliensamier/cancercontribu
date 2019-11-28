@@ -1,5 +1,43 @@
 /*FONTS*/
+@font-face {
+    font-family: "MontserratRegular";
+    src: url("../assets/font/Montserrat-Medium.ttf");
+}
 
+@font-face {
+    font-family: "MontserratSemiBold";
+    src: url("../assets/font/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url("../assets/font/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "CardoRegular";
+    src: url("../assets/font/Cardo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "CardoBold";
+    src: url("../assets/font/Cardo-Bold.ttf");
+}
+
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../assets/font/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../assets/font/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: "RalewayLight";
+    src: url("../assets/font/Raleway-light.ttf");
+}
 
 /* Titles fonts */
 
