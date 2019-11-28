@@ -19,9 +19,9 @@ mysqli_query($lien, 'set names utf8');*/
 
 <body>
 <header class="header">
-	<a href="" class="logo">CSS Nav</a>
+	<img class="logo" src="../assets/images/logocancer.png" alt="logo" width="96" height="37.44">
 	<input class="menu-btn" type="checkbox" id="menu-btn"/>
-	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+	<label class="menu-icon" for="menu-btn"><img class="search" src="../assets/images/search.png/" alt="loup recherche" width="24" height="24.01"><span class="navicon"></span><p class="icon-menu">Menu</p></label>
 	<ul class="menu">
 		<li><a href="#work">Accueil</a></li>
 		<li><a href="#about">À propos de nous</a></li>

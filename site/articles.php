@@ -40,7 +40,7 @@ mysqli_query($lien, 'set names utf8');
 			<div class="col s12">
 				<a class="retour"href="../site/index.php">
 				<img src="../assets/images/fleche_gauche.png" alt="fleche de retour" width="12" height="21.05">
-				Retour
+				<p class="retour-style">Retour</p> 
 				</a>
 			</div>
 		</div>
