@@ -15,22 +15,26 @@ mysqli_query($lien, 'set names utf8');*/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cancer Contribution</title>
     <link rel="stylesheet" href="../styles/styles.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="application/javascript" src="../scripts/header.js"></script>
 </head>
 
 <body>
 <header class="header">
-	<a href="" class="logo">CSS Nav</a>
-	<input class="menu-btn" type="checkbox" id="menu-btn"/>
-	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-	<ul class="menu">
-		<li><a href="#work">Accueil</a></li>
+	<input value="Menu" id="menu" class="header__inputMenu" type="button">
+	<a href="./index.php" class="header__logo"><img class="header__logoImg" src="../assets/images/logocancer.svg"
+	                                                alt="Logo"></a>
+	<button type="button" class="header__inputSearch"><img class="header__logoSearch" src="../assets/images/search.png"
+	                                                       alt="Logo"></button>
+	<ul class="header__menu">
+		<li><a href="./index.php">Accueil</a></li>
 		<li><a href="#about">À propos de nous</a></li>
 		<li><a href="./forum.php">Forum</a></li>
 		<li><a href="#">Sondages</a></li>
 		<li><a href="#">Ressources</a></li>
 		<li><a href="#">Contact</a></li>
-		<li><a href="#">Se connecter</a></li>
-		<li><a href="#">S'inscrire</a></li>
+		<li><a href="#" class="header__menuSpan">Se connecter</a></li>
+		<li><a href="#" class="header__menuSpan">S'inscrire</a></li>
 	</ul>
 </header>
 
@@ -58,7 +62,8 @@ mysqli_query($lien, 'set names utf8');*/
 		<div class="index__containerColumn">
 			<img class="index__containerCol-img" src="../assets/images/index-avatar.png" alt="Avatar">
 			<h4>Les gestes de la prévention<br/><span>Sophie S - Infirmière</span><span><img
-							class="index__containerCol-check" src="../assets/images/index-check.png"></span></h4>
+							class="index__containerCol-check" src="../assets/images/index-check.png" alt="Spécialiste"></span>
+			</h4>
 		</div>
 		<div class="index__containerColumn">
 			<button class="index__tag">#patient</button>

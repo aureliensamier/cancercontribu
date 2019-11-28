@@ -4,3 +4,172 @@
     margin-top: 70px;
 }
 
+.retour{
+    margin-top: 20px;
+    color: #0066CC;
+}
+
+.retour-style{
+    margin-left: 20px;
+    margin-top: -23px;
+    font-size: 16px;
+}
+
+.articles_title{
+    color: #12314F;
+    font-size: 30px;
+}
+
+.articles_description{
+    color: #707070;
+    font-size: 16;
+    line-height: 24px;
+}
+
+.lien_personne{
+    color: #707070;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.date{
+    color: #707070;
+    font-size: 14px;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+
+.articles_premier{
+    color: #707070;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.index__tag1  {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: "RalewayRegular";
+    font-size: 16px;
+    color: #e3e9f2;
+    background: #990E0E;
+    margin-left: 60px;
+}
+
+.index__tag1bis  {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: "RalewayRegular";
+    font-size: 10px;
+    color: #e3e9f2;
+    background: #990E0E;
+    margin-left: 60px;
+}
+
+.index__tag2 {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: "RalewayRegular";
+    font-size: 16px;
+    color: #e3e9f2;
+    background: #e1004c;
+}
+
+.index__tag2bis {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: "RalewayRegular";
+    font-size: 10px;
+    color: #e3e9f2;
+    background: #e1004c;
+}
+
+.index__tag3 {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: "RalewayRegular";
+    font-size: 16px;
+    color: #e3e9f2;
+    background: #4D40E3;
+    margin-right: 30px;
+}
+
+.index__tag3bis {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: "RalewayRegular";
+    font-size: 10px;
+    color: #e3e9f2;
+    background: #4D40E3;
+    margin-right: 30px;
+}
+
+.background-sociaux{
+    height: 169px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background: #E3E9F2;
+}
+
+.sociaux-color{
+    color: #707070;
+    font-size: 14px;
+}
+
+.background-debat{
+    background:  #EDEBEB;
+    width: 328px;
+    height: 48px;
+}
+
+.debat{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #707070;
+    font-size: 19px;
+}
+
+.article-titre{
+    color: #130E0A;
+    font-size: 16px;
+}
+
+.background-articles{
+    background: #E3E9F2;
+}
+
+.date-article{
+    color: #130E0A;
+    font-size: 16px;
+    line-height: 24px;
+}

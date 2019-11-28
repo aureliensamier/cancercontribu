@@ -1,23 +1,19 @@
 /* VERSION MOBILE */
 /* 96px : gros blocks*/
-.header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    background: #e3e9f2;
-    font-family: "RalewayRegular";
-    font-size: 14px;
-}
 
-.header__inputMenu {
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #e3e9f2;
+  font-family: "RalewayRegular";
+  font-size: 14px;
+
+
+  &__inputMenu {
     height: 40px;
     padding-left: 3%;
     padding-top: 30px;
@@ -28,24 +24,22 @@
     font-family: "RalewayRegular";
     font-size: 14px;
     outline: none;
-}
+  }
 
-.header__logo {
+  &__logo {
     display: block;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 18px;
     width: 50%;
-}
+  }
 
-.header__logoImg {
+  &__logoImg {
     display: block;
     margin: 0 auto;
-}
+  }
 
-.header__inputSearch {
+  &__inputSearch {
     height: 40px;
     padding-top: 20px;
     padding-right: 3%;
@@ -54,18 +48,18 @@
     color: #0066CC;
     font-family: "RalewayRegular";
     font-size: 14px;
-}
+  }
 
-.header__logoSearch {
+  &__logoSearch {
     width: 24px;
-}
+  }
 
-.header__menu {
+  &__menu {
     display: none;
     width: 100%;
-}
+  }
 
-.header__menu > li {
+  &__menu > li {
     padding-top: 24px;
     padding-bottom: 24px;
     font-size: 16px;
@@ -73,22 +67,24 @@
     color: #707070;
     font-family: "RalewayRegular";
     border-top: 1px #f7f7f7 solid;
-}
+  }
 
-.header__menu > li > a {
+  &__menu > li > a {
     font-size: 16px;
     text-decoration: none;
     color: #707070;
     font-family: "RalewayRegular";
     outline: none;
     padding-left: 24px;
-}
+  }
 
-.header__menu > li > a {
+  &__menu > li > a {
     font-size: 16px;
     text-decoration: none;
     color: #707070;
     font-family: "RalewayRegular";
     outline: none;
     padding-left: 24px;
+  }
+
 }
