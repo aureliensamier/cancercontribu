@@ -173,3 +173,42 @@
     font-size: 16px;
     line-height: 24px;
 }
+
+.com-20{
+    color: #707070;
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+.date-com{
+    color: #B5B5B5;
+    font-size: 14px;
+}
+
+.pseudo-com{
+    color: #707070;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.statut-com{
+    color: #707070;
+    font-size: 14px;
+}
+
+.background-com{
+    padding: 10px 10px 10px 10px;
+    background: #EDEBEB;
+    border-radius: 10px;
+}
+
+.com{
+    color: #1C1B1B;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.like-com{
+    color: #707070;
+    font-size: 15px;
+}
