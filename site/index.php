@@ -10,53 +10,15 @@ mysqli_query($lien, 'set names utf8');
 <html lang="fr">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150990567-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-150990567-1');
-	</script>
-	<title>Cancer Contribution</title>
-	<link rel="stylesheet" href="./styles/styles.scss">
-	<noscript>
-		<link rel="stylesheet" href="./styles/styles.scss" /></noscript>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancer Contribution</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/reset.css">
 
 
-	<!-- Referencement -->
-	<meta name="description" content="Cancer Contribution : Construire ensemble les pratiques de demain">
-	<meta name="keywords" content="Cancer Contribution : Construire ensemble les pratiques de demain">
-	<meta name="author" content="Aurélien SAMIER">
-	<meta name="robots" content="index">
-	<meta name="Indentifier-URL" content="https://www.cancercontribution.fr/">
-	<!-- END Référencement -->
-
-
-	<!-- Open Graph-->
-	<meta property="og:title" content="Cancer Contribution | Construire ensemble les pratiques de demain">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://www.cancercontribution.fr/">
-	<meta property="og:image" content="./images/logo-vectoriser-cancer.png">
-	<meta property="og:site_name" content="Cancer Contribution | Construire ensemble les pratiques de demain">
-	<meta property="og:description" content="Cancer Contribution : Construire ensemble les pratiques de demain">
-	<!-- END Open Graph-->
-
-	<!-- Twitter Cards-->
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="https://www.cancercontribution.fr/" />
-	<meta name="twitter:title" content="Cancer Contribution | Construire ensemble les pratiques de demain" />
-	<meta name="twitter:description" content="Cancer Contribution : Construire ensemble les pratiques de demain" />
-	<meta name="twitter:image" content="./images/logo-vectoriser-cancer.png">
-	<!-- END Twitter Cards-->
-	<!-- Compiled and minified CSS -->
+    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!-- Compiled and minified JavaScript -->
@@ -64,25 +26,50 @@ mysqli_query($lien, 'set names utf8');
 </head>
 
 <body>
-	<!-- Code goes here -->
+    <!-- Code goes here -->
 
-	<div class="row center">
-		<div class="col s12 col m12 col l3">
-			<a href="./index.php/">Accueil</a>
-		</div>
-		<div class="col s12 col m12 col l3">
-			<a href="./ressources.php/">Ressources</a>
-		</div>
-		<div class="col s12 col m12 col l3">
-			<a href="./articles.php/">Articles</a>
-		</div>
-		<div class="col s12 col m12 col l3">
-			<a href="./forum.php/">Forum</a>
-		</div>
-	</div>
+    <div class="row center">
 
-	<!-- Code ends here -->
-	<script src="./scripts/index.js"></script>
+
+        <div class="container">
+            <div class="header">
+                <div class="row center">
+                    <div class="col s4">
+                        <img src="../assets/images/menu.png" alt="icon menu" width="37" height="38">
+                    </div>
+                    <div class="col s4">
+                        <img src="../assets/images/logocancer.png/" alt="logo cancer contribu" width="96"
+                            height="37.44">
+                    </div>
+                    <div class="col s4">
+                        <img src="../assets/images/search.png" alt="icon search" width="24" height="24.01">
+                    </div>
+                </div>
+            </div>
+            <div class="introduction">
+                <h1 class="title">La plateforme
+                    collaborative pour
+                    lutter contre le
+                    cancer
+                </h1>
+
+                <p class="description-intro">Rejoignez notre communauté et alimentez
+                    le débat pour que, tous ensemble, nous
+                    puissions améliorer le système de santé. </p>
+                <div class="content-video">
+                    <img src="../assets/images/image_intro_landing.png" alt="video presentation" width="327"
+                        height="208">
+                </div>
+
+            </div>
+            <div class="forum"></div>
+            <div class="partenariat"></div>
+            <div class="footer"></div>
+
+        </div>
+
+        <!-- Code ends here -->
+        <script src="./scripts/index.js"></script>
 </body>
 
 </html>
