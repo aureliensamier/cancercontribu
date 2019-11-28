@@ -24,11 +24,20 @@ mysqli_query($lien, 'set names utf8');*/
 	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 	<ul class="menu">
 		<li><a href="#work">Accueil</a></li>
-		<li><a href="#about">About</a></li>
-		<li><a href="#careers">Careers</a></li>
-		<li><a href="#contact">Contact</a></li>
+		<li><a href="#about">À propos de nous</a></li>
+		<li><a href="./forum.php">Forum</a></li>
+		<li><a href="#">Sondages</a></li>
+		<li><a href="#">Ressources</a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">Se connecter</a></li>
+		<li><a href="#">S'inscrire</a></li>
 	</ul>
 </header>
+
+<section class="index">
+	<h1 class="index__H1">La plateforme collaborative pour lutter contre le cancer</h1>
+</section>
+
 </body>
 
 </html>

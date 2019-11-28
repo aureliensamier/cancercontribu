@@ -1,0 +1,12 @@
+.index {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.index__H1 {
+  margin-top: 120px;
+  font-family: "MontserratSemiBold";
+  font-size: 30px;
+  color: #12314f;
+}
