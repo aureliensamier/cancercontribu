@@ -11,8 +11,8 @@ body{
     color: #707070;
 }
 
-h1 {
-    font-family: "MontserratSemiBold";
+.forum_categories_maincontainer_p1 h1 {
+    font-family: "MontserratSemibold";
     color:#12314F;
     text-align: center;
     font-size: 30px;
@@ -105,3 +105,58 @@ h1 {
     width: 100%;
 }
 
+
+
+/* Themes categories part*/
+
+.forum_categories_maincontainer_p2 {
+    margin: 5vw;
+}
+.forum_categories_maincontainer_p2 h2 {
+    font-family: 'MontserratSemibold';
+    color:#130E0A;
+    font-size: 24px;
+}
+
+.themes_categories_section{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.forum_categories_maincontainer_p2 > .themes_categories_section > a {
+    font-family: 'MontserratSemibold';
+    color:#F7F7F7;
+    font-size: 20px;
+    height: 20vh;
+    border-radius: 5px;
+    width: 48%;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.themes_categories_section .category1 {
+    background-color: #EAB0C3;
+}
+.themes_categories_section .category2 {
+    background-color: #CCC9F2;
+}
+.themes_categories_section .category3 {
+    background-color:#BBDFD8;
+}
+.themes_categories_section .category4 {
+    background-color: #B8D2EC;
+}
+
+.show_more_button{
+    text-align: center;
+    margin:0 auto;
+}
