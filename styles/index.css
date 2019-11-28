@@ -1,12 +1,82 @@
 .index {
   width: 93%;
   margin: 0 auto;
-  margin-top: 70px;
-}
-
-.index__H1 {
-  margin-top: 120px;
-  font-family: "MontserratSemiBold";
-  font-size: 30px;
-  color: #12314f;
-}
+  margin-top: 70px; }
+  .index__H1 {
+    margin-top: 120px;
+    font-family: "MontserratSemiBold";
+    font-size: 30px;
+    color: #12314f;
+    margin-bottom: 24px; }
+  .index__H2 {
+    text-align: center;
+    margin-top: 120px;
+    font-family: "MontserratSemiBold";
+    font-size: 25px;
+    color: #12314f;
+    margin-bottom: 24px; }
+  .index__p {
+    font-family: "RalewayLight";
+    font-size: 16px;
+    color: #12314f;
+    line-height: 150%; }
+    .index__p--center {
+      text-align: center; }
+  .index__Ainfo {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 50%;
+    background: #12314f;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "RalewayBold";
+    font-size: 16px;
+    margin-bottom: 100px; }
+  .index__Ainfo > p {
+    -webkit-transform: translateY(75%);
+    -ms-transform: translateY(75%);
+    transform: translateY(75%); }
+  .index__video {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 22px; }
+  .index__slide {
+    width: 100%;
+    margin-bottom: 36px; }
+  .index__debat {
+    -webkit-transform: translateX(-6%);
+    -ms-transform: translateX(-6%);
+    transform: translateX(-6%);
+    height: 48px;
+    background: #edebeb;
+    width: 80%;
+    -webkit-box-shadow: #EDEBEB 0 3px 6px;
+    box-shadow: #EDEBEB 0 3px 6px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-family: "MontserratSemiBold";
+    color: #707070;
+    font-size: 18px; }
+  .index__debat > h3 {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    padding-left: 3%; }
+  .index__container {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #e3e9f2;
+    border-radius: 6px; }
+  .index__containerColumn1 {
+    width: 100%; }
+  .index__containerCol1-img {
+    width: 56px; }
