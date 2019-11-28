@@ -36,12 +36,15 @@ mysqli_query($lien, 'set names utf8');
 	</ul>
 	</header>
 	<section class="articles">
+
 		<div class="row">
 			<div class="col s12">
-				<a class="retour"href="../site/index.php">
-				<img src="../assets/images/fleche_gauche.png" alt="fleche de retour" width="12" height="21.05">
-				<p class="retour-style">Retour</p> 
-				</a>
+				<div class="retour">
+					<a class="retour" href="../site/index.php">
+					<img src="../assets/images/fleche_gauche.png" alt="fleche de retour" width="16" height="26.05">
+					<div class="retour-style">Retour</div>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div class="articles-intro">
@@ -58,10 +61,12 @@ mysqli_query($lien, 'set names utf8');
 		</div>
 		<div class="row">
 			<div class="col s1">
-			<img src="../assets/images/profil_vierge.png" alt="profil utilisateur">
+				<img src="../assets/images/profil_vierge.png" alt="profil utilisateur">
 			</div>
 			<div class="col s4">
-				<a href="lien_personne">Sylvie Favier</a>
+				<div class="lien_personne">
+					<b class="lien_personne">Sylvie Favier</b>
+				</div>
 			</div>
 			<div class="col s5">
 				<p class="date">- 29 octobre 2017</p>
@@ -70,54 +75,54 @@ mysqli_query($lien, 'set names utf8');
 		</div>
 		<img src="../assets/images/art-schema.png/" alt="diagramme articles" width="375" height="230">
 		<p class="articles_premier">
-		Bien que le cancer fasse partie des pathologies
-		bénéficiant de l’ALD (Affection Longue Durée),
-		avec une prise en charge totale, hors
-		dépassement d’honoraires, un grand nombre des
-		patients en activité lorsqu’ils sont diagnostiqués
-		subissent une perte significative de revenus due
-		aux arrêts de travail répétés et basculent
-		inéluctablement vers la précarité.
-		<br>
-		<br/>
-		Au-delà des frais liés à la maladie non
-		remboursés ou remboursés partiellement
-		(prothèses capillaires, prothèses mammaires
-		temporaires ou franchises médicales par
-		exemple), ce sont les dépenses courantes
-		inhérentes à la vie quotidienne qui posent
-		problème : alimentation, électricité, gaz, loyer,
-		aides ménagères, assistantes maternelles…
-		<br>
-		<br/>
-		Vient ensuite l’imbroglio administratif relatif
-		à l’emploi ou aux assurances et aux retard de
-		paiement consécutifs.
-		<br>
-		<br/>
-		<br>
-		<br/>
-		Souvent dépassées par l’ampleur, la complexité
-		et la lourdeur des démarches, les assistantes
-		sociales trouvent un relais proactif auprès
-		d’associations capables de réagir avec acuité à ces
-		situations d’urgence. A leur demande et dans le
-		cas de situations complexes, l’association Juris
-		Santé, spécialisée dans l’accompagnement
-		juridique personnalisé des patients et proches
-		aidants, vient à l’appui de leur mission.
-		<br>
-		<br/>
+			Bien que le cancer fasse partie des pathologies
+			bénéficiant de l’ALD (Affection Longue Durée),
+			avec une prise en charge totale, hors
+			dépassement d’honoraires, un grand nombre des
+			patients en activité lorsqu’ils sont diagnostiqués
+			subissent une perte significative de revenus due
+			aux arrêts de travail répétés et basculent
+			inéluctablement vers la précarité.
+			<br>
+			<br/>
+			Au-delà des frais liés à la maladie non
+			remboursés ou remboursés partiellement
+			(prothèses capillaires, prothèses mammaires
+			temporaires ou franchises médicales par
+			exemple), ce sont les dépenses courantes
+			inhérentes à la vie quotidienne qui posent
+			problème : alimentation, électricité, gaz, loyer,
+			aides ménagères, assistantes maternelles…
+			<br>
+			<br/>
+			Vient ensuite l’imbroglio administratif relatif
+			à l’emploi ou aux assurances et aux retard de
+			paiement consécutifs.
+			<br>
+			<br/>
+			<br>
+			<br/>
+			Souvent dépassées par l’ampleur, la complexité
+			et la lourdeur des démarches, les assistantes
+			sociales trouvent un relais proactif auprès
+			d’associations capables de réagir avec acuité à ces
+			situations d’urgence. A leur demande et dans le
+			cas de situations complexes, l’association Juris
+			Santé, spécialisée dans l’accompagnement
+			juridique personnalisé des patients et proches
+			aidants, vient à l’appui de leur mission.
+			<br>
+			<br/>
 		</p>
 		<div class="row right">
 			<div class="col s6">
 				<div class="hastag-aidant">
-					<a href="#">#aidant</a>
+					<button class="index__tag1">#aidant</button>
 				</div>
 			</div>
 			<div class="col s6">
 				<div class="hastag-patient">
-					<a href="#">#patient</a>
+					<button class="index__tag2">#patient</button>
 				</div>
 			</div>
 		</div>
@@ -126,25 +131,31 @@ mysqli_query($lien, 'set names utf8');
 		<div class="row right ">
 			<div class="col s12">
 				<div class="hastag-vie-active">
-					<a href="#">#vie-active</a>
+					<button class="index__tag3">#vie-active</button>
 				</div>
 			</div>
 		</div>
+		<br>
+		<br/>
+		<br>
+		<br/>
+		<br>
+		<br/>
 		<div class="background-sociaux">
 			<div class="row center">
 				<div class="col s6">
-					<a href="#">20<img src="../assets/images/bulle-articles.png/" alt="bulle discussion" width="20.82" height="18.26"></a>
+					<a href="#"><b class="sociaux-color">20</b><img src="../assets/images/bulle-articles.png/" alt="bulle discussion" width="20.82" height="18.26"></a>
 				</div>
 				<div class="col s6">
-					<a href="#">1000<img src="../assets/images/partage-articles.png/" alt="partage" width="11.69" height="15.46"></a>
+					<a href="#"><b class="sociaux-color">1000</b><img src="../assets/images/partage-articles.png/" alt="partage" width="11.69" height="15.46"></a>
 				</div>
 			</div>
 			<div class="row center">
 				<div class="col s6">
-					<p>commentaires</p>
+					<p class="sociaux-color">commentaires</p>
 				</div>
 				<div class="col s6">
-					<p>partages</p>
+					<p class="sociaux-color">partages</p>
 				</div>
 			</div>
 			<br>
@@ -165,6 +176,10 @@ mysqli_query($lien, 'set names utf8');
 			</div>
 		</div>
 	</section>
+	<br>
+	<br/>
+	<br>
+	<br/>
 	<div class="background-debat">
 		<h2 class="debat">Débats sur ce thème</h2>
 	</div>
@@ -179,24 +194,24 @@ mysqli_query($lien, 'set names utf8');
 			Cancer et Travail
 		</a>
 	</section>
-	<div class="background-alire">
-		<h2 class="alire">A lire aussi</h2>
+	<div class="background-debat">
+		<h2 class="debat">A lire aussi</h2>
 	</div>
 	<section class="articles">
 		<div class="background-articles">
 			<div class="row">
-				<div class="col s4">
+				<div class="col s5">
 					<img src="../assets/images/image-article1.png" alt="image article premier" width="128" height="127">
 					<br>
 					<br/>
 					<p class="date_articles">Le 12/04/19</p>
 				</div>
-				<div class="col s8">
+				<div class="col s7">
 					<h3 class="article-titre">
-						ARTICLE : Travailler malgré
-						le cancer
+						<b>ARTICLE : Travailler malgré
+						le cancer</b> 
 					</h3>
-					<p class="sujet-article">
+					<p class="date-article">
 						De plus en plus de personnes 
 						vivent avec et après un cancer.
 						Parmi elles, nombreuses sont 
@@ -208,35 +223,35 @@ mysqli_query($lien, 'set names utf8');
 			<div class="row center">
 				<div class="col s4">
 					<div class="hastag-aidant">
-						<a href="#">#aidant</a>
+						<button class="index__tag1bis">#aidant</button>
 					</div>
 				</div>
 				<div class="col s4">
 					<div class="hastag-patient">
-						<a href="#">#patient</a>
+						<button class="index__tag2bis">#patient</button>
 					</div>
 				</div>
 				<div class="col s4">
 					<div class="hastag-vie-active">
-						<a href="#">#vie-active</a>
+						<button class="index__tag3bis">#vie-active</button>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="background-articles">
 			<div class="row">
-				<div class="col s4">
+				<div class="col s5">
 					<img src="../assets/images/image-article2.png" alt="image article second" width="128" height="127">
 					<br>
 					<br/>
 					<p class="date_articles">Le 12/04/19</p>
 				</div>
-				<div class="col s8">
+				<div class="col s7">
 					<h3 class="article-titre">
-						ARTICLE : Les aidants 
-						salariés
+						<b>ARTICLE : Les aidants 
+						salariés</b> 
 					</h3>
-					<p class="sujet-article">
+					<p class="date-article">
 						Face au nombre grandissant 
 						d’aidants qui occupent un 
 						emplois, quelles réponses 
@@ -250,17 +265,17 @@ mysqli_query($lien, 'set names utf8');
 			<div class="row center">
 				<div class="col s4">
 					<div class="hastag-aidant">
-						<a href="#">#aidant</a>
+						<button class="index__tag1bis">#aidant</button>
 					</div>
 				</div>
 				<div class="col s4">
 					<div class="hastag-patient">
-						<a href="#">#patient</a>
+						<button class="index__tag2bis">#patient</button>
 					</div>
 				</div>
 				<div class="col s4">
 					<div class="hastag-vie-active">
-						<a href="#">#vie-active</a>
+						<button class="index__tag3bis">#vie-active</button>
 					</div>
 				</div>
 			</div>
