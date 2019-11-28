@@ -128,13 +128,13 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    height: 50px;
 }
 
 .forum_categories_discussions__part2 .username_details .username_type{
     height:12px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 
@@ -147,7 +147,38 @@ body{
     font-family: 'RalewayBold';
     font-weight: 18px;
 }
+.username_profile_image{
+    padding-right: 10px;
+    height:100%;
+}
 
 .forum_categories_discussions__part2 .username_details{
     
+}
+
+.forum_message{
+    background-color:#EDEBEB;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.forum_message_text{
+    font-family: 'RalewayRegular';
+    font-size: 16px;
+    padding: 15px;
+    color:#1C1B1B;
+}
+.forum_message_infos{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.forum_message_likes{
+    height: 15px;
+}
+.forum_message_likes img{
+    height:100%;
 }
