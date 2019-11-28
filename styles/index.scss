@@ -51,6 +51,10 @@
     transform: translateY(75%);
   }
 
+  &__Adisplay {
+    margin-top: 30px;
+  }
+
   &__video {
     width: 100%;
     margin-top: 40px;
@@ -60,6 +64,13 @@
   &__slide {
     width: 100%;
     margin-bottom: 36px;
+
+  }
+
+  &__partenariat {
+    margin-top: 55px;
+    margin-bottom: 50px;
+    width: 100%;
   }
 
   &__debat {
@@ -88,14 +99,112 @@
     flex-wrap: wrap;
     background: #e3e9f2;
     border-radius: 6px;
+    margin-bottom: 8px;
   }
 
-  &__containerColumn1 {
+  &__containerColumn {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "RalewayBold";
+    font-size: 18px;
   }
 
-  &__containerCol1-img {
+  &__containerColumn:nth-child(3) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 75%;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  &__containerColumn > h4 {
+    color: #707070;
+    padding-top: 10px;
+  }
+
+  &__containerColumn-P {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "RalewayLight";
+    color: #b5b5b5;
+  }
+
+  &__containerColumn > h4 > span {
+    font-family: "RalewayRegular";
+    font-size: 14px;
+    padding-top: 3px;
+  }
+
+
+  &__containerLine {
+    width: 40%;
+    text-align: center;
+    font-family: "RalewayBold";
+    font-size: 14px;
+    color: #707070;
+
+    &--span {
+      font-family: "RalewayLight";
+    }
+  }
+
+  &__containerLine2 {
+    width: 58%;
+    text-align: right;
+    padding-right: 2px;
+    font-family: "RalewayBold";
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 12px;
+  }
+
+  &__containerCol-check {
+    padding-left: 3px;
+    width: 16px;
+    transform: translateY(30%);
+  }
+
+  &__containerCol-img {
     width: 56px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
   }
 
+  &__tag {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: "RalewayRegular";
+    font-size: 16px;
+    color: #e3e9f2;
+  }
+
+  &__tag:nth-child(1) {
+    background: #e1004c;
+  }
+
+  &__tag:nth-child(2) {
+    background: #cc9d00;
+  }
+
+  &__tag:nth-child(3) {
+    background: #0066cc;
+  }
+
+  &__tag:nth-child(4) {
+    background: #4d40e3;
+  }
 }
