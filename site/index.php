@@ -34,7 +34,10 @@ mysqli_query($lien, 'set names utf8');*/
 	</ul>
 </header>
 
-<p class="p23">uygdxkuqzgyvdyuzeg</p>
+<section class="index">
+	<h1 class="index__H1">La plateforme collaborative pour lutter contre le cancer</h1>
+</section>
+
 </body>
 
 </html>

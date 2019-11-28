@@ -1,6 +1,13 @@
-.p23 {
-  position: relative;
-  top: 100px;
-  font-family: "MontserratRegular";
-  color: black;
+.index {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 70px;
+
+  &__H1 {
+    margin-top: 120px;
+    //transform: translateY(70px);
+    font-family: "MontserratSemiBold";
+    font-size: 30px;
+    color: #12314f;
+  }
 }
