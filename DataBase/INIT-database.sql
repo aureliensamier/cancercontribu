@@ -1,3 +1,13 @@
+/*Changer de InnoDB en MyISAM
+Enlever tout ce qui a marqué sur la ligne avant le mot "PRIMARY KEY" (sans virgule)
+Enlever intégralement la ligne de code (avec virgule) pour FOREIGN KEY
+Supprimer les tables des liaisons
+Vérifier que les tables n'ont pas d'id d'autres tables, si c'est le cas
+- rajouter sa clé primaire s'il y en pas de toute la table
+- changer les deux anciennes lignes primaire id_ligneDeTable en table_ligneDeTable
+*/
+
+
 #------------------------------------------------------------
 #        Script MySQL.
 #------------------------------------------------------------
@@ -6,18 +16,6 @@
 #------------------------------------------------------------
 # Table: CIVILITE
 #------------------------------------------------------------
-
-/*
-Changer de MyISAM en MyISAM
-Enlever tout ce qui a marqué sur la ligne avant le mot "PRIMARY KEY" (sans virgule)
-Enlever intégralement la ligne de code (avec virgule) pour FOREIGN KEY
-Supprimer les tables des liaisons
-Vérifier que les tables n'ont pas d'id d'autres table, si c'est le cas
-- rajouter sa clé primaire s'il y en pas de toute la table
-- changer les deux anciennes lignes primaire id_ligneDeTable en table_ligneDeTable
-*/
-
-
 
 CREATE TABLE CIVILITE
 (
@@ -48,7 +46,7 @@ CREATE TABLE ARTICLE
 (
     id_article      Int Auto_increment NOT NULL,
     article_titre   Text               NOT NULL,
-    article_date    Date               NOT NULL,
+    article_date    Datetime           NOT NULL,
     article_content Text               NOT NULL,
     article_auteur  Varchar(100)       NOT NULL,
     article_MAJ     Date               NOT NULL,
@@ -78,8 +76,9 @@ CREATE TABLE SHARE
 
 CREATE TABLE TAG
 (
-    id_tag  Int Auto_increment NOT NULL,
-    tag_nom Varchar(300)       NOT NULL,
+    id_tag      Int Auto_increment NOT NULL,
+    tag_nom     Varchar(300)       NOT NULL,
+    tag_couleur Varchar(50)        NOT NULL,
     PRIMARY KEY (id_tag)
 ) ENGINE = MyISAM;
 
@@ -129,7 +128,7 @@ CREATE TABLE COMMENTAIRE
     id_commentaire      Int Auto_increment NOT NULL,
     commentaire_titre   Varchar(200)       NOT NULL,
     commentaire_pseudo  Varchar(100)       NOT NULL,
-    commentaire_date    Date               NOT NULL,
+    commentaire_date    Datetime           NOT NULL,
     commentaire_content Text               NOT NULL,
     commentaire_user    Int                NOT NULL,
     PRIMARY KEY (id_commentaire)
@@ -143,7 +142,7 @@ CREATE TABLE COMMENTAIRE
 CREATE TABLE FORUM_SUJET
 (
     id_forum    Int Auto_increment NOT NULL,
-    forum_date  Date               NOT NULL,
+    forum_date  Datetime           NOT NULL,
     forum_media Int,
     PRIMARY KEY (id_forum)
 ) ENGINE = MyISAM;
@@ -159,6 +158,9 @@ CREATE TABLE POST
     post_titre   Varchar(300)       NOT NULL,
     post_content Text               NOT NULL,
     post_like    Int                NOT NULL,
+    post_source  Text               NOT NULL,
+    post_sponsor Varchar(300)       NOT NULL,
+    post_time    Datetime           NOT NULL,
     post_forum   Int                NOT NULL,
     post_user    Int                NOT NULL,
     PRIMARY KEY (id_post)
