@@ -51,7 +51,7 @@ body{
 
 
 
-.forum_categories_maincontainer_p1 h1 {
+.forum_maincontainer_p1 h1 {
     font-family: "MontserratSemibold";
     color:#12314F;
     text-align: center;
@@ -97,8 +97,9 @@ body{
 
 
 
-#forum_categories__container {
+#forum__container {
    padding: 0;
+   
 }
 
 .forum_header {
@@ -123,13 +124,13 @@ body{
 
 }
 
-.forum_categories_maincontainer_p1 .intro_text {
+.forum_maincontainer_p1 .intro_text {
     text-align: center;
     font-family: 'RalewayLight';
     margin: 0 20px 0 20px;
 }
 
-.forum_categories_maincontainer_p1 a {
+.forum_maincontainer_p1 a {
     text-decoration: underline;
 }
 
@@ -165,12 +166,12 @@ body{
 
 /* Themes categories part*/
 
-.forum_categories_maincontainer_p2 {
+.forum_maincontainer_p2 {
     margin: 5vw;
     height: auto;
 }
 
-.forum_categories_maincontainer_p2 h2 {
+.forum_maincontainer_p2 h2 {
     font-family: 'MontserratSemibold';
     color:#130E0A;
     font-size: 24px;
