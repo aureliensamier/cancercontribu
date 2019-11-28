@@ -66,7 +66,7 @@ mysqli_query($lien, 'set names utf8');
 					<div class="menu__fixedhead">
 						<div class="col-xs-12 col-md-12 col-lg-12">
 							<div class="menu__accueil">
-								<a href="/forum-categories-discussions.html">Discussions</a>
+								<a href="./forum-categories-discussions.php">Discussions</a>
 							</div>
 						</div>
 					</div>

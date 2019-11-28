@@ -68,16 +68,16 @@ mysqli_query($lien, 'set names utf8');
 
 	<div class="row center">
 		<div class="col s12 col m12 col l3">
-			<a href="/index.html/">Accueil</a>
+			<a href="./index.php/">Accueil</a>
 		</div>
 		<div class="col s12 col m12 col l3">
-			<a href="/ressources.html/">Ressources</a>
+			<a href="./ressources.php/">Ressources</a>
 		</div>
 		<div class="col s12 col m12 col l3">
-			<a href="/articles.html/">Articles</a>
+			<a href="./articles.php/">Articles</a>
 		</div>
 		<div class="col s12 col m12 col l3">
-			<a href="/forum.html/">Forum</a>
+			<a href="./forum.php/">Forum</a>
 		</div>
 	</div>
 
