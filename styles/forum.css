@@ -50,6 +50,11 @@ body{
 }
 
 
+#forum__container {
+   padding: 0;
+   margin-top:100px;
+   
+}
 
 .forum_maincontainer_p1 h1 {
     font-family: "MontserratSemibold";
@@ -95,10 +100,6 @@ body{
     width: 25px;
 }
 
-#forum__container {
-   padding: 0;
-   
-}
 
 .forum_header {
     background-color:#E3E9F2;
