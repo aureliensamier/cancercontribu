@@ -97,6 +97,7 @@ body{
 
 #forum__container {
    padding: 0;
+   margin: 0 20px 0 20px;
 }
 
 .forum_header {
@@ -124,7 +125,7 @@ body{
 .forum_maincontainer_p1 .intro_text {
     text-align: center;
     font-family: 'RalewayLight';
-    margin: 0 20px 0 20px;
+    
 }
 
 .forum_maincontainer_p1 a {
@@ -164,7 +165,7 @@ body{
 /* Themes categories part*/
 
 .forum_maincontainer_p2 {
-    margin: 5vw;
+    
     height: auto;
 }
 
