@@ -59,10 +59,39 @@ mysqli_query($lien, 'set names utf8');
                 <div class="content-video">
                     <img src="../assets/images/image_intro_landing.png" alt="video presentation" width="327"
                         height="208">
-                </div>
+				</div>
+				<div class="content-video">
+                    <img src="../assets/images/image-slider-landing.png" alt="slider" width="352"
+                        height="256">
+				</div>
+				<div class="row center">
+                    <a href="#" class="bouton-plus">
+							<p class="bouton-plus-texte">En savoir plus</p>
+					</a>
+				</div>
 
             </div>
-            <div class="forum"></div>
+            <div class="forum">
+				<h2 class="subtitle">Forum
+					</h2>
+
+					<p class="description-forum">Découvrez notre forum, un lieu ou chacun 
+peut contribuer au débat et aider à apporter 
+des solutions basé sur leur expertise </p>
+
+			<div class="row center">
+				<div class="col s4">
+					
+				</div>
+				<div class="col s4">
+					
+				</div>
+				<div class="col s4">
+				
+				</div>
+			</div>
+
+			</div>
             <div class="partenariat"></div>
             <div class="footer"></div>
 
