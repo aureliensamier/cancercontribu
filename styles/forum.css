@@ -184,4 +184,7 @@ body{
     background-color:#12314F;
     border-radius: 10px;
     padding : 10px;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
 }
