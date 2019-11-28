@@ -35,8 +35,9 @@ mysqli_query($lien, 'set names utf8');*/
 		<li><a href="#">Sondages</a></li>
 		<li><a href="#">Ressources</a></li>
 		<li><a href="#">Contact</a></li>
-		<li><a href="#" class="header__menuSpan">Se connecter</a></li>
-		<li><a href="#" class="header__menuSpan">S'inscrire</a></li>
+		<li class="header__menuSpan"><a href="#">Se connecter</a></li>
+		<li class="header__menuSpan header__menuSpan2"><a href="#" class="header__menuSpan--Inscription">S'inscrire</a>
+		</li>
 	</ul>
 </header>
 

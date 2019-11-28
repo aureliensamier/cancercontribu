@@ -5,6 +5,7 @@
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 10000;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -75,16 +76,39 @@
     color: #707070;
     font-family: "RalewayRegular";
     outline: none;
+  }
+
+
+  &__menu :nth-last-child(n+3) {
     padding-left: 24px;
   }
 
-  &__menu > li > a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #707070;
-    font-family: "RalewayRegular";
-    outline: none;
-    padding-left: 24px;
+  &__menu > &__menuSpan {
+    border: none;
+    text-align: center;
   }
+
+  &__menu > &__menuSpan2 {
+    padding-bottom: 1000px;
+
+  }
+
+  &__menu > &__menuSpan > a {
+    color: #0066cc;
+    font-size: 20px;
+  }
+
+  &__menu > li > &__menuSpan--Inscription {
+    display: block;
+    margin: 0 auto;
+    background: #12314f;
+    border-radius: 10px;
+    height: 30px;
+    width: 50%;
+    padding-top: 10px;
+    color: #f7f7f7;
+  }
+
+
 
 }
