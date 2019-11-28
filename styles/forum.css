@@ -1,32 +1,10 @@
 /*FONTS*/
 
-/* Titles fonts */
-@font-face {
-    font-family: "Montserrat_regular";
-    src: url("../assets/font/Montserrat-Regular.ttf");
-}
-@font-face {
-    font-family: "Montserrat_semi-bold";
-    src: url("../assets/font/Montserrat-SemiBold.ttf");
-}
-@font-face {
-    font-family: "Montserrat_bold";
-    src: url("../assets/font/Montserrat-Bold.ttf");
-}
 
-/* Text fonts */
-@font-face {
-    font-family: "Raleway_light";
-    src: url("../assets/font/Raleway-Light.ttf");
-}
-@font-face {
-    font-family: "Raleway_semi-bold";
-    src: url("../assets/font/Raleway-SemiBold.ttf");
-}
-@font-face {
-    font-family: "Raleway_bold";
-    src: url("../assets/font/Raleway-Bold.ttf");
-}
+/* Titles fonts */
+
+
+
 
 body{
     background-color: #F7F7F7;
@@ -34,7 +12,7 @@ body{
 }
 
 h1 {
-    font-family: "Montserrat_semi-bold";
+    font-family: "MontserratSemiBold";
     color:#12314F;
     text-align: center;
     font-size: 30px;
@@ -42,22 +20,23 @@ h1 {
 
 .search_field_forum {
     margin: 5vh 0 5vh 0;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .label_search_forum {
-    font-family: "Montserrat_bold";
+    font-family: "MontserratBold";
     font-size: 16px;
     color:#12314F;
-    margin: 0 auto;
+    margin:0 auto;
 }
+
 #search_forum_input{
-    font-family: 'Raleway_light';
+    font-family: 'RalewayLight';
     font-size: 14px;
     border-radius: 5px;
     box-shadow: 0px 3px 6px #E3E3E3;
     color:#12314F;
-    padding-left: 10px;
 }
 
 
@@ -70,7 +49,7 @@ h1 {
     background-color:#E3E9F2;
     height: 70px;
     box-shadow: 0px 3px 6px #E3E3E3;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     align-items: center;
 }
@@ -90,10 +69,39 @@ h1 {
 
 .forum_categories_maincontainer_p1 .intro_text {
     text-align: center;
-    font-family: 'Raleway_light';
+    font-family: 'RalewayLight';
     margin: 0 20px 0 20px;
 }
 
 .forum_categories_maincontainer_p1 a {
     text-decoration: underline;
 }
+
+
+/* buttons cta*/
+
+
+
+.buttons_cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    height: 12vh;
+    margin: 0 auto;
+}
+
+.buttons_cta a {
+    text-decoration: none;
+}
+
+.forum_cta_buttons {
+    text-align: center;
+    font-family: 'MontserratBold';
+    color: #F7F7F7;
+    background-color:#12314F;
+    border-radius: 10px;
+    padding : 10px;
+    width: 100%;
+}
+
