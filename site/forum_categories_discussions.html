@@ -9,8 +9,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 		<title>Cancer Contribution</title>
-		<link rel="stylesheet" href="../styles/forum_categories_discussions.css">
+		<link rel="stylesheet" href="../styles/styles.css">
 		<link rel="stylesheet" href="../styles/reset.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="application/javascript" src="../scripts/header.js"></script>
 
 		
 		
@@ -26,7 +28,23 @@
 	<div id="forum_categories_discussions__container">
 
 		<!-- Header -->
-
+		<header class="header">
+				<input value="Menu" id="menu" class="header__inputMenu" type="button">
+				<a href="./index.php" class="header__logo"><img class="header__logoImg" src="../assets/images/logocancer.svg"
+																alt="Logo"></a>
+				<button type="button" class="header__inputSearch"><img class="header__logoSearch" src="../assets/images/search.png"
+																	   alt="Logo"></button>
+				<ul class="header__menu">
+					<li><a href="./index.php">Accueil</a></li>
+					<li><a href="#about">À propos de nous</a></li>
+					<li><a href="./forum.php">Forum</a></li>
+					<li><a href="#">Sondages</a></li>
+					<li><a href="#">Ressources</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#" class="header__menuSpan">Se connecter</a></li>
+					<li><a href="#" class="header__menuSpan">S'inscrire</a></li>
+				</ul>
+		</header>
 
 		<!-- Part 1 -->
 
@@ -99,7 +117,7 @@
 
 
   <!-- Code ends here -->
-  <script src="./scripts/index.js"></script>
+  <script src="./scripts/header.js"></script>
 </body>
 
 </html>
