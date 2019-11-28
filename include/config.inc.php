@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+/*session_start();
 
 // Connexion au serveur MySQL
 
@@ -9,8 +9,9 @@ $user = "msalsou";
 $password = "_MPLKYUAt7";
 $bdd = "msalsou";
 
-$lien = mysqli_connect($host,$user,$password,$bdd);
+shell_exec("ssh -fNg -L 3307:$host:3306 msalsou@etudiants.eemi.tech");
+$lien = mysqli_connect($host,$user,$password,$bdd, 3307);
 
 mysqli_query($lien,"set names utf8");
-
+*/
 ?>

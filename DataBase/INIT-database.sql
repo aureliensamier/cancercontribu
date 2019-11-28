@@ -7,7 +7,6 @@ Vérifier que les tables n'ont pas d'id d'autres tables, si c'est le cas
 - changer les deux anciennes lignes primaire id_ligneDeTable en table_ligneDeTable
 */
 
-
 #------------------------------------------------------------
 #        Script MySQL.
 #------------------------------------------------------------
@@ -130,7 +129,7 @@ CREATE TABLE COMMENTAIRE
     commentaire_pseudo  Varchar(100)       NOT NULL,
     commentaire_date    Datetime           NOT NULL,
     commentaire_content Text               NOT NULL,
-    commentaire_user    Int                NOT NULL,
+    id_user             Int                NOT NULL,
     PRIMARY KEY (id_commentaire)
 ) ENGINE = MyISAM;
 
@@ -141,9 +140,9 @@ CREATE TABLE COMMENTAIRE
 
 CREATE TABLE FORUM_SUJET
 (
-    id_forum    Int Auto_increment NOT NULL,
-    forum_date  Datetime           NOT NULL,
-    forum_media Int,
+    id_forum   Int Auto_increment NOT NULL,
+    forum_date Datetime           NOT NULL,
+    id_media   Int,
     PRIMARY KEY (id_forum)
 ) ENGINE = MyISAM;
 
@@ -164,4 +163,22 @@ CREATE TABLE POST
     post_forum   Int                NOT NULL,
     post_user    Int                NOT NULL,
     PRIMARY KEY (id_post)
+) ENGINE = MyISAM;
+
+
+#------------------------------------------------------------
+# Table: SONDAGE
+#------------------------------------------------------------
+
+CREATE TABLE SONDAGE
+(
+    id_sondage      Int Auto_increment NOT NULL,
+    sondage_titre   Text               NOT NULL,
+    sondage_date    Datetime           NOT NULL,
+    sondage_content Text               NOT NULL,
+    sondage_auteur  Varchar(100)       NOT NULL,
+    sondage_MAJ     Date               NOT NULL,
+    sondage_source  Text               NOT NULL,
+    sondage_avatar  Text               NOT NULL,
+    PRIMARY KEY (id_sondage)
 ) ENGINE = MyISAM;

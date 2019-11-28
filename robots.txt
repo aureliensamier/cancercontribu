@@ -1,3 +1,0 @@
-User-Agent: *
-Allow: /*.css?*
-Sitemap: http://asamier.eemi.tech/Cancer-Contribution/sitemap.xml
