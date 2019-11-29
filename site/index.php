@@ -20,6 +20,7 @@ mysqli_query($lien, 'set names utf8');*/
 </head>
 
 <body>
+<!-- Travail réalisé par Margot Rasamy, Manon Salsou et (Aurélien Samier) -->
 <header class="header">
 	<button type="button" id="menu" class="header__inputMenu">
 		<img class="header__logoSearch" id="menu-cross" src="../assets/images/header-cross.svg" alt="Logo">
@@ -189,3 +190,4 @@ mysqli_query($lien, 'set names utf8');*/
 </footer>
 </body>
 </html>
+
