@@ -490,9 +490,6 @@ mysqli_query($lien, 'set names utf8');
 		</li>
 	</ul>
 </footer>
-
-    <!-- Code ends here -->
-    <script src="./scripts/index.js"></script>
 </body>
 
 </html>
