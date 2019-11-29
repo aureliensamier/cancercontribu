@@ -2,17 +2,19 @@
 /* Titles fonts */
 
 
-
+    
 
 body{
     background-color: #F7F7F7;
     color: #707070;
+   
 }
 
 #forum_categories_discussions__container {
     
     margin-top:100px;
     border:0;
+    
 
 }
 
@@ -119,9 +121,7 @@ body{
     height:100%;
 }
 
-.forum_categories_discussions__part2 .username_details{
-    
-}
+
 
 .forum_message{
     background-color:#EDEBEB;

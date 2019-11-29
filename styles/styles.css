@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: "MontserratExtraLight";
+    src: url("../assets/font/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
     font-family: "CardoRegular";
     src: url("../assets/font/Cardo-Regular.ttf");
 }

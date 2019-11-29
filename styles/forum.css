@@ -210,3 +210,233 @@ body{
     margin: 0;
 }
 
+
+
+
+
+/*forum debate */
+
+
+
+
+/*
+.forum_debate__container{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #e3e9f2;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      width: 93%;
+  margin: 0 auto;
+  margin-top: 70px;
+  height: 100px;
+  margin-bottom: 500px;
+}
+
+.forum_debate__containerColumn {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-family: "RalewayBold";
+    font-size: 18px;
+}
+
+.forum_debate__containerColumn:nth-child(3) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 75%;
+    margin-left: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.forum_debate__containerColumn> h4 {
+    color: #707070;
+    padding-top: 10px;
+}
+
+.forum_debate__containerColumn-P{
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "RalewayLight";
+    color: #b5b5b5;
+}
+
+.forum_debate__containerColumn > h4 > span {
+    font-family: "RalewayRegular";
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+
+
+
+
+.forum_debate__containerLine {
+    width: 40%;
+    text-align: center;
+    font-family: "RalewayBold";
+    font-size: 14px;
+    color: #707070;
+}
+
+.forum_debate__containerLine--span {
+    font-family: "RalewayLight";
+}
+
+.forum_debate__containerLine2 {
+    width: 58%;
+    text-align: right;
+    padding-right: 2px;
+    font-family: "RalewayBold";
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 12px;
+}
+
+.forum_debate__containerCol-check {
+    padding-left: 3px;
+    width: 16px;
+    -webkit-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
+}
+
+.forum_debate__containerCol-img {
+    width: 56px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.forum_debate__tag {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: "RalewayRegular";
+    font-size: 16px;
+    color: #e3e9f2;
+}
+
+.forum_debate__tag:nth-child(1) {
+    background: #e1004c;
+}
+
+.forum_debate__tag:nth-child(2) {
+    background: #cc9d00;
+}
+
+.forum_debate__tag:nth-child(3) {
+    background: #0066cc;
+}
+
+.forum_debate__tag:nth-child(4) {
+    background: #4d40e3;
+}
+
+
+*/
+
+
+
+/*Debate */
+
+.forum_debate__container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    background-color: #E3E9F2;
+    border-radius: 10px;
+
+}
+
+
+.forum_debate__container .forum_reply_date{
+    font-family: 'RalewayLight';
+    color:#B5B5B5;
+    font-size: 14px;
+    text-align: right;
+}
+.forum_debate__container .username_discussions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+
+}
+
+.forum_debate__container .username_details .username_type{
+    height:12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.username_details img {
+    height: 100%;
+    padding-left: 5px;
+}
+
+.username_pseudo {
+    font-family: 'RalewayBold';
+    font-weight: 18px;
+}
+.username_profile_image{
+    padding-right: 10px;
+    height:100%;
+}
+
+.forum_debate__containerColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.forum_debate__containerLine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+}
+
+.forum_debate__containerLine p {
+    height: 15px;
+    font-family: 'MontserratExtraLight';
+}
+.forum_debate__containerLine img {
+    height: 100%;
+}
+#forum_debate__comments{
+    font-family: 'MontserratSemibold';
+    text-align: center;
+    
+}
+#forum_debate__time{
+    font-family: 'MontserratSemibold';
+    text-align: right;
+}
