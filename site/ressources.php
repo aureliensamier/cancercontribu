@@ -26,7 +26,7 @@ mysqli_query($lien, 'set names utf8');
 <body>
 
     <!-- Code goes here -->
-    <header class="header">
+<header class="header">
 	<button type="button" id="menu" class="header__inputMenu">
 		<img class="header__logoSearch" id="menu-cross" src="../assets/images/header-cross.svg" alt="Logo">
 		<br/>Menu
@@ -41,7 +41,7 @@ mysqli_query($lien, 'set names utf8');
 	<ul class="header__menu">
 		<li><a href="./index.php">Accueil</a></li>
 		<li><a href="#about">À propos de nous</a></li>
-		<li><a href="./forum.php">Forum</a></li>
+		<li><a href="./forum.html">Forum</a></li>
 		<li><a href="#">Sondages</a></li>
 		<li><a href="./ressources.php">Ressources</a></li>
 		<li><a href="#">Contact</a></li>
@@ -258,11 +258,11 @@ mysqli_query($lien, 'set names utf8');
     <br />
     <br>
     <br />
-    <footer class="index-footer">
+<footer class="index-footer">
 	<ul>
 		<li><a href="./index.php">A Propos</a></li>
 		<li><a href="./ressources.php">A Ressources</a></li>
-		<li><a href="./forum.php">Forum</a></li>
+		<li><a href="./forum.html">Forum</a></li>
 		<li class="index-footer__menuSpan"><a href="#">FAIRE UN DON</a></li>
 		<li class="index-footer__menuSpan index-footer__menuSpan2"><a href="#">S'INSCRIRE À LA NEWSLETTER</a></li>
 		<li class="index-footer__follow">
