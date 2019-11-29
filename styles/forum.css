@@ -427,6 +427,8 @@ body{
 .forum_debate__containerLine p {
     height: 15px;
     font-family: 'MontserratExtraLight';
+    margin-top:2px;
+    margin-bottom: 2px;
 }
 .forum_debate__containerLine img {
     height: 100%;

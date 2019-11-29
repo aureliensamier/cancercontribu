@@ -187,10 +187,12 @@ body{
 }
 /* signal link*/
 .signal_link {
-    display: block;
     display: flex;
     align-items: center;
-    color:#707070;
+    justify-content: flex-end;
+    color:#12314F;
+    font-family: 'RalewayBold';
+    padding: 10px;
 }
 
 /*Cta buttons*/
