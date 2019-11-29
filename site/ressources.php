@@ -65,7 +65,7 @@ mysqli_query($lien, 'set names utf8');
         <br>
         <br />
         <div class="row right">
-            <a href="#" class="filtre">Filtres<img src="../assets/images/filtrer.png/" alt="filtrage" width="16"></a>
+            <a href="#" class="filtre">Filtres<img src="../assets/images/filtrer.png" alt="filtrage" width="16"></a>
         </div>
         <br>
         <br />
