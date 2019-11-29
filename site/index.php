@@ -21,7 +21,11 @@ mysqli_query($lien, 'set names utf8');*/
 
 <body>
 <header class="header">
-	<input value="Menu" id="menu" class="header__inputMenu" type="button">
+	<button type="button" id="menu" class="header__inputMenu">
+		<img class="header__logoSearch" id="menu-cross" src="../assets/images/header-cross.svg" alt="Logo">
+		<br/>Menu
+	</button>
+
 	<a href="./index.php" class="header__logo">
 		<img class="header__logoImg" src="../assets/images/logocancer.svg" alt="Logo">
 	</a>
@@ -158,9 +162,29 @@ mysqli_query($lien, 'set names utf8');*/
 	<ul>
 		<li><a href="./index.php">A Propos</a></li>
 		<li><a href="./index.php">A Ressources</a></li>
-		<li><a href="./forum.php">A Forum</a></li>
-		<li class="index-footer__menuSpan"><a href="#">S'INSCRIRE À LA NEWSLETTER</a></li>
-		<li>Suivez-nous</li>
+		<li><a href="./forum.php">Forum</a></li>
+		<li class="index-footer__menuSpan"><a href="#">FAIRE UN DON</a></li>
+		<li class="index-footer__menuSpan index-footer__menuSpan2"><a href="#">S'INSCRIRE À LA NEWSLETTER</a></li>
+		<li class="index-footer__follow">
+			<p>Suivez-nous</p>
+			<nav class="index-footer__container">
+				<a href="#"><img src="../assets/images/twitter.svg"></a>
+				<a href="#"><img src="../assets/images/facebook.svg"></a>
+				<a href="#"><img src="../assets/images/linkedin.svg"></a>
+				<a href="#"><img src="../assets/images/pinterest.svg"></a>
+			</nav>
+
+			<nav class="index-footer__container">
+				<a href="#">Conditions <br/>générales</a>
+				<img src="../assets/images/footer-line.svg" alt="">
+				<a href="#">Mentions légales</a>
+				<img src="../assets/images/footer-line.svg" alt="">
+				<a href="#">Contact</a>
+			</nav>
+
+			<p class="index-footer__center">Copyright © Cancer Contribution : construire ensemble les pratiques de
+				demain – Thème Glob par FameThemes</p>
+		</li>
 	</ul>
 </footer>
 </body>

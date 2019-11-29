@@ -17,14 +17,21 @@
   &__inputMenu {
     height: 40px;
     padding-left: 3%;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 45px;
     background: none;
     border: none;
     color: #0066CC;
     font-family: "RalewayRegular";
     font-size: 14px;
     outline: none;
+
+    & > img {
+      display: none;
+      width: 32px;
+      transform: translateY(10px);
+      position: relative;
+      left: 3px;
+    }
   }
 
   &__logo {
