@@ -31,7 +31,6 @@
 }
 
 .header__inputMenu > img {
-    visibility: hidden;
     width: 32px;
     -webkit-transform: translateY(10px);
     -ms-transform: translateY(10px);
@@ -123,5 +122,5 @@
 }
 
 .header__visibility {
-    visibility: visible;
+    width: 100px;
 }

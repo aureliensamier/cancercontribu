@@ -5,4 +5,4 @@ $(document).ready(function () {
         $("#menu-cross").toggleClass(".header__visibility");
     })
 
-})
+});
