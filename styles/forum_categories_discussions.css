@@ -76,7 +76,9 @@ body{
 .forum_categories_discussions__part2 .reply {
     display: flex;
     flex-direction: column;
-
+    margin: 10px;
+    padding-bottom: 10px;
+ 
     
 }
 
@@ -92,7 +94,8 @@ body{
     flex-direction: row;
     align-items: center;
     height: 50px;
-    padding:10px;
+    padding: 10px;
+
 }
 
 .forum_categories_discussions__part2 .username_details .username_type{
@@ -125,7 +128,8 @@ body{
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-
+    margin-bottom: 10px;
+    justify-content: center;
 }
 
 .forum_message_text{
@@ -149,7 +153,8 @@ body{
 .forum_message_buttons{
     display: flex;
     justify-content: space-between;
-    padding:25px;
+    margin: 0 auto;
+    
 }
 
 .forum_message_button_action{
@@ -158,13 +163,16 @@ body{
     color: #F7F7F7;
     background-color:#12314F;
     border-radius: 10px;
-    padding : 13px 20px 13px 20px;
+    padding : 13px 14px 13px 14px;
+    margin: 35px 5px 20px 5px;
+    
     display: block;
-    margin: 0 auto;
     text-decoration: none;
     display: flex;
     align-items: center;
+
 }
+
 .forum_message_button_action img {
     padding-right: 10px;
 }
@@ -175,6 +183,14 @@ body{
     margin: 20px;
     font-family: 'RalewayRegular';
     font-size:17px;
+
+}
+/* signal link*/
+.signal_link {
+    display: block;
+    display: flex;
+    align-items: center;
+    color:#707070;
 }
 
 /*Cta buttons*/
@@ -182,4 +198,9 @@ body{
 
 #forum_go_back{
     background-color: #0066CC;
+}
+
+
+.forum_message_links {
+    color: #0066CC;
 }
