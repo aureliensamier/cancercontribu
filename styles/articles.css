@@ -76,6 +76,21 @@
     margin-left: 60px;
 }
 
+.index__tag1ter  {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: "RalewayRegular";
+    font-size: 10px;
+    color: #e3e9f2;
+    background: #CC9D00;
+    margin-left: 60px;
+}
+
 .index__tag2 {
     margin-left: 4px;
     margin-right: 4px;
@@ -211,4 +226,10 @@
 .like-com{
     color: #707070;
     font-size: 15px;
+}
+
+.ressources-description{
+    color: #130E0A;
+    font-size: 16px;
+    line-height: 24px;
 }

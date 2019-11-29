@@ -161,7 +161,7 @@ mysqli_query($lien, 'set names utf8');*/
 <footer class="index-footer">
 	<ul>
 		<li><a href="./index.php">A Propos</a></li>
-		<li><a href="./index.php">A Ressources</a></li>
+		<li><a href="./ressources.php">A Ressources</a></li>
 		<li><a href="./forum.php">Forum</a></li>
 		<li class="index-footer__menuSpan"><a href="#">FAIRE UN DON</a></li>
 		<li class="index-footer__menuSpan index-footer__menuSpan2"><a href="#">S'INSCRIRE À LA NEWSLETTER</a></li>
