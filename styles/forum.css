@@ -27,6 +27,7 @@ body{
     margin: 5vh 0 5vh 0;
     display: flex;
     justify-content: center;
+    
 }
 
 .label_search_forum {
@@ -34,20 +35,30 @@ body{
     font-size: 16px;
     color:#12314F;
     margin:0 auto;
+    width: auto;
+    
 }
 
 #search_forum_input{
+    display: block;
     font-family: 'RalewayLight';
     font-size: 14px;
     border-radius: 10px;
     box-shadow: 0px 3px 6px #E3E3E3;
+    border: none;
     color:#12314F;
     position: relative;
+    width:100%;
+    padding: 10px;
+    margin-top: 16px;
+    
 }
 
 .label_search_forum input {
     position: absolute;
     right: 0px;
+    margin:0 auto;
+    width:75%;
 }
 
 .search_icon {
@@ -161,6 +172,11 @@ body{
     align-items: center;
     text-align:center;
 }
+
+.forum_maincontainer_p2 .themes {
+    padding: 5px;
+}
+
 
 .themes_categories_section .category1 {
     background-color: #EAB0C3;
