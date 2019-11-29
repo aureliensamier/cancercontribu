@@ -25,7 +25,7 @@ mysqli_query($lien, 'set names utf8');
 
 <body>
     <!-- Code goes here -->
-    <header class="header">
+<header class="header">
 	<button type="button" id="menu" class="header__inputMenu">
 		<img class="header__logoSearch" id="menu-cross" src="../assets/images/header-cross.svg" alt="Logo">
 		<br/>Menu
@@ -40,7 +40,7 @@ mysqli_query($lien, 'set names utf8');
 	<ul class="header__menu">
 		<li><a href="./index.php">Accueil</a></li>
 		<li><a href="#about">À propos de nous</a></li>
-		<li><a href="./forum.php">Forum</a></li>
+		<li><a href="./forum.html">Forum</a></li>
 		<li><a href="#">Sondages</a></li>
 		<li><a href="./ressources.php">Ressources</a></li>
 		<li><a href="#">Contact</a></li>
@@ -87,7 +87,7 @@ mysqli_query($lien, 'set names utf8');
             </div>
             <div class="col s2"></div>
         </div>
-        <img src="../assets/images/art-schema.png/" alt="diagramme articles" width="375" height="230">
+        <img src="../assets/images/art-schema.png" alt="diagramme articles" width="375" height="230">
         <p class="articles_premier">
             Bien que le cancer fasse partie des pathologies
             bénéficiant de l’ALD (Affection Longue Durée),
@@ -158,11 +158,11 @@ mysqli_query($lien, 'set names utf8');
         <div class="background-sociaux">
             <div class="row center">
                 <div class="col s6">
-                    <a href="#"><b class="sociaux-color">20</b><img src="../assets/images/bulle-articles.png/"
+                    <a href="#"><b class="sociaux-color">20</b><img src="../assets/images/bulle-articles.png"
                             alt="bulle discussion" width="20.82" height="18.26"></a>
                 </div>
                 <div class="col s6">
-                    <a href="#"><b class="sociaux-color">1000</b><img src="../assets/images/partage-articles.png/"
+                    <a href="#"><b class="sociaux-color">1000</b><img src="../assets/images/partage-articles.png"
                             alt="partage" width="11.69" height="15.46"></a>
                 </div>
             </div>
@@ -178,19 +178,19 @@ mysqli_query($lien, 'set names utf8');
             <br />
             <div class="row center">
                 <div class="col s3">
-                    <a href="#"><img src="../assets/images/logo-twitter.png/" alt="logo twitter" width="50"
+                    <a href="#"><img src="../assets/images/logo-twitter.png" alt="logo twitter" width="50"
                             height="50"></a>
                 </div>
                 <div class="col s3">
-                    <a href="#"><img src="../assets/images/logo-facebook.png/" alt="logo facebook" width="50"
+                    <a href="#"><img src="../assets/images/logo-facebook.png" alt="logo facebook" width="50"
                             height="50"></a>
                 </div>
                 <div class="col s3">
-                    <a href="#"><img src="../assets/images/logo-messenger.png/" alt="logo messenger" width="50"
+                    <a href="#"><img src="../assets/images/logo-messenger.png" alt="logo messenger" width="50"
                             height="50"></a>
                 </div>
                 <div class="col s3">
-                    <a href="#"><img src="../assets/images/logo-linkedin.png/" alt="logo linkedin" width="50"
+                    <a href="#"><img src="../assets/images/logo-linkedin.png" alt="logo linkedin" width="50"
                             height="50"></a>
                 </div>
             </div>
@@ -306,7 +306,7 @@ mysqli_query($lien, 'set names utf8');
         <br />
         <div class="row center">
             <div class="col s6">
-                <a href="#"><img src="../assets/images/bulle-articles2.png/" alt="bulle discussion" width="38.11"
+                <a href="#"><img src="../assets/images/bulle-articles2.png" alt="bulle discussion" width="38.11"
                         height="28.9"><b class="com-20">20 commentaires</b></a>
             </div>
         </div>
@@ -318,7 +318,7 @@ mysqli_query($lien, 'set names utf8');
         <br />
         <div class="row">
             <div class="col s2">
-                <img src="../assets/images/persona-com1.png/" alt="persona commentaire premier" width="40" height="56">
+                <img src="../assets/images/persona-com1.png" alt="persona commentaire premier" width="40" height="56">
             </div>
             <div class="col s2">
                 <b class="pseudo-com">Lili G</b>
@@ -349,10 +349,10 @@ mysqli_query($lien, 'set names utf8');
             <br />
             <div class="row center">
                 <div class="col s6">
-                    <img src="../assets/images/repondre.png/" alt="bouton repondre" width="146" height="40">
+                    <img src="../assets/images/repondre.png" alt="bouton repondre" width="146" height="40">
                 </div>
                 <div class="col s6">
-                    <img src="../assets/images/signaler.png/" alt="bouton signaler" width="146" height="40">
+                    <img src="../assets/images/signaler.png" alt="bouton signaler" width="146" height="40">
                 </div>
             </div>
         </div>
@@ -364,7 +364,7 @@ mysqli_query($lien, 'set names utf8');
         <br />
         <div class="row">
             <div class="col s2">
-                <img src="../assets/images/persona-com2.png/" alt="persona commentaire second" width="40" height="56">
+                <img src="../assets/images/persona-com2.png" alt="persona commentaire second" width="40" height="56">
             </div>
             <div class="col s2">
                 <b class="pseudo-com">Margot R</b>
@@ -392,10 +392,10 @@ mysqli_query($lien, 'set names utf8');
             <br />
             <div class="row center">
                 <div class="col s6">
-                    <img src="../assets/images/repondre.png/" alt="bouton repondre" width="146" height="40">
+                    <img src="../assets/images/repondre.png" alt="bouton repondre" width="146" height="40">
                 </div>
                 <div class="col s6">
-                    <img src="../assets/images/signaler.png/" alt="bouton signaler" width="146" height="40">
+                    <img src="../assets/images/signaler.png" alt="bouton signaler" width="146" height="40">
                 </div>
             </div>
         </div>
@@ -407,7 +407,7 @@ mysqli_query($lien, 'set names utf8');
         <br />
         <div class="row">
             <div class="col s2">
-                <img src="../assets/images/persona-com3.png/" alt="persona commentaire troisième" width="40"
+                <img src="../assets/images/persona-com3.png" alt="persona commentaire troisième" width="40"
                     height="56">
             </div>
             <div class="col s2">
@@ -438,10 +438,10 @@ mysqli_query($lien, 'set names utf8');
             <br />
             <div class="row center">
                 <div class="col s6">
-                    <img src="../assets/images/repondre.png/" alt="bouton repondre" width="146" height="40">
+                    <img src="../assets/images/repondre.png" alt="bouton repondre" width="146" height="40">
                 </div>
                 <div class="col s6">
-                    <img src="../assets/images/signaler.png/" alt="bouton signaler" width="146" height="40">
+                    <img src="../assets/images/signaler.png" alt="bouton signaler" width="146" height="40">
                 </div>
             </div>
         </div>
@@ -453,19 +453,19 @@ mysqli_query($lien, 'set names utf8');
         <br>
         <br />
         <div class="row center">
-            <img src="../assets/images/plusdecom.png/" alt=" boutton plus de com" width="194" height="40">
+            <img src="../assets/images/plusdecom.png" alt=" boutton plus de com" width="194" height="40">
         </div>
         <div class="row center">
-            <img src="../assets/images/retour-ressources.png/" alt="voutton retour ressources" width="194qq"
+            <img src="../assets/images/retour-ressources.png" alt="voutton retour ressources" width="194qq"
                 height="40">
         </div>
     </section>
 
-    <footer class="index-footer">
+<footer class="index-footer">
 	<ul>
 		<li><a href="./index.php">A Propos</a></li>
 		<li><a href="./ressources.php">A Ressources</a></li>
-		<li><a href="./forum.php">Forum</a></li>
+		<li><a href="./forum.html">Forum</a></li>
 		<li class="index-footer__menuSpan"><a href="#">FAIRE UN DON</a></li>
 		<li class="index-footer__menuSpan index-footer__menuSpan2"><a href="#">S'INSCRIRE À LA NEWSLETTER</a></li>
 		<li class="index-footer__follow">
