@@ -138,7 +138,7 @@
 	</div>
 
   <!-- Code ends here -->
-  <script src="./scripts/index.js"></script>
+  <script src="./scripts/"></script>
 </body>
 
 </html>

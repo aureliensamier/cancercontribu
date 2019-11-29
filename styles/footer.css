@@ -1,3 +1,7 @@
+html {
+    background: #F7F7F7;
+}
+
 .index-footer {
     width: 100%;
 }
@@ -56,7 +60,7 @@
     background: #E1004C;
 }
 
-.index-footer__follow > nav {
+.index-footer__container {
     margin-top: 25px;
     margin-bottom: 25px;
     width: 100%;
@@ -70,7 +74,7 @@
     justify-content: space-evenly;
 }
 
-.index-footer__follow > nav > a {
+.index-footer__container > a {
     color: #f7f7f7;
     text-decoration: none;
     font-family: "RalewayBold";

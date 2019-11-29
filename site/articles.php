@@ -478,21 +478,19 @@ mysqli_query($lien, 'set names utf8');
 			</nav>
 
 			<nav class="index-footer__container">
-				<a href="#">Conditions <br/>générales</a>
+				<a href="#">Conditions générales</a>
 				<img src="../assets/images/footer-line.svg" alt="">
 				<a href="#">Mentions légales</a>
 				<img src="../assets/images/footer-line.svg" alt="">
 				<a href="#">Contact</a>
 			</nav>
-
+<br>
+<br/>
 			<p class="index-footer__center">Copyright © Cancer Contribution : construire ensemble les pratiques de
 				demain – Thème Glob par FameThemes</p>
 		</li>
 	</ul>
 </footer>
-
-    <!-- Code ends here -->
-    <script src="./scripts/index.js"></script>
 </body>
 
 </html>

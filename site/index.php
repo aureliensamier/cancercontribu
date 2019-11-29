@@ -13,13 +13,14 @@ mysqli_query($lien, 'set names utf8');*/
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cancer Contribution</title>
+	<title>Cancer Contribution</title>
     <link rel="stylesheet" href="../styles/styles.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script type="application/javascript" src="../scripts/header.js"></script>
 </head>
 
 <body>
+<!-- Travail réalisé par Margot Rasamy, Manon Salsou et (Aurélien Samier) -->
 <header class="header">
 	<button type="button" id="menu" class="header__inputMenu">
 		<img class="header__logoSearch" id="menu-cross" src="../assets/images/header-cross.svg" alt="Logo">
@@ -188,5 +189,5 @@ mysqli_query($lien, 'set names utf8');*/
 	</ul>
 </footer>
 </body>
-
 </html>
+
