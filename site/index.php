@@ -153,6 +153,16 @@ mysqli_query($lien, 'set names utf8');*/
 
 	<img class="index__partenariat" src="../assets/images/index-partenariat.png" alt="" Partenariat>
 </section>
+
+<footer class="index-footer">
+	<ul>
+		<li><a href="./index.php">A Propos</a></li>
+		<li><a href="./index.php">A Ressources</a></li>
+		<li><a href="./forum.php">A Forum</a></li>
+		<li class="index-footer__menuSpan"><a href="#">S'INSCRIRE À LA NEWSLETTER</a></li>
+		<li>Suivez-nous</li>
+	</ul>
+</footer>
 </body>
 
 </html>
