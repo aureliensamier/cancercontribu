@@ -27,20 +27,27 @@
 
   <!--header-->
   <header class="header">
-		<input value="Menu" id="menu" class="header__inputMenu" type="button">
-		<a href="./index.php" class="header__logo"><img class="header__logoImg" src="../assets/images/logocancer.svg"
-														alt="Logo"></a>
-		<button type="button" class="header__inputSearch"><img class="header__logoSearch" src="../assets/images/search.png"
-															   alt="Logo"></button>
+		<button type="button" id="menu" class="header__inputMenu">
+			<img class="header__logoSearch" id="menu-cross" src="../assets/images/header-cross.svg" alt="Logo">
+			<br/>Menu
+		</button>
+	
+		<a href="./index.php" class="header__logo">
+			<img class="header__logoImg" src="../assets/images/logocancer.svg" alt="Logo">
+		</a>
+		<button type="button" class="header__inputSearch">
+			<img class="header__logoSearch" src="../assets/images/search.png" alt="Logo">
+		</button>
 		<ul class="header__menu">
 			<li><a href="./index.php">Accueil</a></li>
 			<li><a href="#about">À propos de nous</a></li>
 			<li><a href="./forum.php">Forum</a></li>
 			<li><a href="#">Sondages</a></li>
-			<li><a href="#">Ressources</a></li>
+			<li><a href="./ressources.php">Ressources</a></li>
 			<li><a href="#">Contact</a></li>
-			<li><a href="#" class="header__menuSpan">Se connecter</a></li>
-			<li><a href="#" class="header__menuSpan">S'inscrire</a></li>
+			<li class="header__menuSpan"><a href="#">Se connecter</a></li>
+			<li class="header__menuSpan header__menuSpan2"><a href="#" class="header__menuSpan--Inscription">S'inscrire</a>
+			</li>
 		</ul>
 	</header>
 
@@ -65,9 +72,6 @@
 			<form class="search_field_forum">
 				<label for="search_forum_input" class="label_search_forum col s11">
 						Recherchez dans le forum 
-						<i class="search_icon">
-								<img class="search_icon_img" src="../assets/images/search_logo.svg"></img> 
-						</i>
 						<input id="search_forum_input" type="text" placeholder="Sujets, mots clés, tags, thèmes " />
 						
 
@@ -102,7 +106,7 @@
 			<h2 class="themes">Thèmes les plus</br> recherchés</h2>
 
 			<div class="themes_categories_section">
-				<a href="#" class="category1">Cancer du </br> sein</a>
+				<a href="forum_categories.html" class="category1">Cancer du </br> sein</a>
 				<a href="#" class="category2">Cancer de l'utérus</a>
 				<a href="#" class="category3">Cancer du pancréas</a>
 				<a href="#" class="category4">Cancer des poumons</a>
