@@ -26,7 +26,7 @@
     outline: none;
 
     & > img {
-      display: none;
+      visibility: hidden;
       width: 32px;
       transform: translateY(10px);
       position: relative;
@@ -116,6 +116,7 @@
     color: #f7f7f7;
   }
 
-
-
+  &__visibility {
+    visibility: visible;
+  }
 }
