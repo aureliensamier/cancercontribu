@@ -173,6 +173,11 @@ body{
     text-align:center;
 }
 
+.forum_maincontainer_p2 .themes {
+    padding: 5px;
+}
+
+
 .themes_categories_section .category1 {
     background-color: #EAB0C3;
 }
