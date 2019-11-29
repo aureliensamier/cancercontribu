@@ -2,7 +2,10 @@
 @import "reset.css";
 @import "header.css";
 @import "articles.css";
+@import "forum.css";
+@import "forum_categories_discussions.css";
 @import "footer.css";
+
 
 
 @font-face {
@@ -13,6 +16,16 @@
 @font-face {
     font-family: "MontserratSemiBold";
     src: url("../assets/font/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url("../assets/font/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "MontserratExtraLight";
+    src: url("../assets/font/Montserrat-ExtraLight.ttf");
 }
 
 @font-face {

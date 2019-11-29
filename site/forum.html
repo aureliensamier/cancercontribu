@@ -1,0 +1,365 @@
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Cancer Contribution</title>
+		<link rel="stylesheet" href="../styles/styles.css">
+		<link rel="stylesheet" href="../styles/reset.css">
+		<link rel="stylesheet" href="../styles/header.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="application/javascript" src="../scripts/header.js"></script>
+	</head>
+
+
+<body>
+  <!-- Code goes here -->
+  	<div id="forum__container">
+
+  <!--header-->
+  <header class="header">
+		<input value="Menu" id="menu" class="header__inputMenu" type="button">
+		<a href="./index.php" class="header__logo"><img class="header__logoImg" src="../assets/images/logocancer.svg"
+														alt="Logo"></a>
+		<button type="button" class="header__inputSearch"><img class="header__logoSearch" src="../assets/images/search.png"
+															   alt="Logo"></button>
+		<ul class="header__menu">
+			<li><a href="./index.php">Accueil</a></li>
+			<li><a href="#about">À propos de nous</a></li>
+			<li><a href="./forum.php">Forum</a></li>
+			<li><a href="#">Sondages</a></li>
+			<li><a href="#">Ressources</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#" class="header__menuSpan">Se connecter</a></li>
+			<li><a href="#" class="header__menuSpan">S'inscrire</a></li>
+		</ul>
+	</header>
+
+<!-- Main container -->
+
+
+
+
+	<!-- Part 1 -->
+		<div class="forum_maincontainer_p1 row d-flex">
+			<h1>Forum</h1>
+			<p class="intro_text">
+					Bienvenue sur le forum Cancer contribution. 
+					Participez ou lancez des débats pour que, tous ensemble, nous puissions lutter contre le cancer
+					<br/><br/><br/>
+					Vous êtes actuellement 
+					<a href="#">649 membres</a>
+					connectés. 
+			</p>
+
+			<!-- search input-->
+			<form class="search_field_forum">
+				<label for="search_forum_input" class="label_search_forum col s11">
+						Recherchez dans le forum 
+						<i class="search_icon">
+								<img class="search_icon_img" src="../assets/images/search_logo.svg"></img> 
+						</i>
+						<input id="search_forum_input" type="text" placeholder="Sujets, mots clés, tags, thèmes " />
+						
+
+						
+					
+				</label>
+
+			</form>
+
+			
+			<!--buttons CTA-->
+			<div class="buttons_cta"> 
+				<a href="#" class="forum_cta_buttons">
+					Créer une discussion
+				</a>
+				<a href="#" class="forum_cta_buttons">
+					Règles du forum
+				</a>
+			</div>
+
+
+
+	
+
+
+		</div>
+
+	<!-- Part 2 -->
+		<!--themes categories-->
+
+		<div class="forum_maincontainer_p2">
+			<h2 class="themes">Thèmes les plus</br> recherchés</h2>
+
+			<div class="themes_categories_section">
+				<a href="#" class="category1">Cancer du </br> sein</a>
+				<a href="#" class="category2">Cancer de l'utérus</a>
+				<a href="#" class="category3">Cancer du pancréas</a>
+				<a href="#" class="category4">Cancer des poumons</a>
+
+			</div>
+
+
+			<a href="#" class="show_more_button">
+					Afficher plus
+			</a>
+		</div>
+
+
+		
+
+	<!-- Part 3 -->
+		<div class="forum_maincontainer_p3">
+			<div class="recent_debate_section">
+				<h4>Débats récents</h4>
+
+			</div>
+		</div>
+
+
+
+		
+		<div class="forum_debate__container">
+			<p class="forum_reply_date">25/09/19</p>
+
+					<div class="username_discussions">
+						<img class="username_profile_image" src="../assets/images/profile_username2.svg">
+						<div class="username_details">
+							<p class="username_pseudo">Les gestes de prévention</p>
+							<p class="username_type">Margot R - Infirmière
+								<img src="../assets/images/check_logo.svg"/>
+							</p>
+						</div>
+					</div>
+
+
+					<div class="index__containerColumn">
+						<button class="index__tag">#patient</button>
+						<button class="index__tag">#citoyen</button>
+						<button class="index__tag">#généralité</button>
+						<button class="index__tag">#prévention</button>
+					</div>
+
+					<div class="forum_debate__containerColumn">
+						<div class="forum_debate__containerLine">
+							<p id="forum_debate__comments">50
+							<img class="forum_debate__containerCol-check" src="../assets/images/index-comment.png"
+								alt="Commentaires" style="transform: translateY(-0.1%)">
+							</p>
+							<p>commentaires</p>
+						</div>
+						<div class="forum_debate__containerLine">
+							<p id="forum_debate__time">3heures
+							<img class="forum_debate__containerCol-check" src="../assets/images/index-time.png"
+								alt="Commentaires" style="transform: translateY(-0.1%)">
+							</p>
+							<p>depuis le dernier post</p>
+						</div>
+					</div>
+		</div>
+	
+
+
+		<!--debate recent -->
+
+		<div class="forum_debate__container">
+				<p class="forum_reply_date">25/09/19</p>
+	
+						<div class="username_discussions">
+							<img class="username_profile_image" src="../assets/images/profile_username2.svg">
+							<div class="username_details">
+								<p class="username_pseudo">Les gestes de prévention</p>
+								<p class="username_type">Margot R - Infirmière
+									<img src="../assets/images/check_logo.svg"/>
+								</p>
+							</div>
+						</div>
+	
+	
+						<div class="index__containerColumn">
+							<button class="index__tag">#patient</button>
+							<button class="index__tag">#citoyen</button>
+							<button class="index__tag">#généralité</button>
+							<button class="index__tag">#prévention</button>
+						</div>
+	
+						<div class="forum_debate__containerColumn">
+							<div class="forum_debate__containerLine">
+								<p id="forum_debate__comments">50
+								<img class="forum_debate__containerCol-check" src="../assets/images/index-comment.png"
+									alt="Commentaires" style="transform: translateY(-0.1%)">
+								</p>
+								<p>commentaires</p>
+							</div>
+							<div class="forum_debate__containerLine">
+								<p id="forum_debate__time">3heures
+								<img class="forum_debate__containerCol-check" src="../assets/images/index-time.png"
+									alt="Commentaires" style="transform: translateY(-0.1%)">
+								</p>
+								<p>depuis le dernier post</p>
+							</div>
+						</div>
+			</div>
+
+			<a href="#" class="show_more_button">
+					Afficher plus
+			</a>
+
+
+
+
+
+
+
+
+
+<!-- Most discussed debates-->
+
+
+
+<div class="forum_maincontainer_p3">
+		<div class="recent_debate_section">
+			<h4>Débats les plus discutés</h4>
+
+		</div>
+	</div>
+
+
+
+	
+	<div class="forum_debate__container">
+		<p class="forum_reply_date">25/09/19</p>
+
+				<div class="username_discussions">
+					<img class="username_profile_image" src="../assets/images/profile_username2.svg">
+					<div class="username_details">
+						<p class="username_pseudo">Les gestes de prévention</p>
+						<p class="username_type">Margot R - Infirmière
+							<img src="../assets/images/check_logo.svg"/>
+						</p>
+					</div>
+				</div>
+
+
+				<div class="index__containerColumn">
+					<button class="index__tag">#patient</button>
+					<button class="index__tag">#citoyen</button>
+					<button class="index__tag">#généralité</button>
+					<button class="index__tag">#prévention</button>
+				</div>
+
+				<div class="forum_debate__containerColumn">
+					<div class="forum_debate__containerLine">
+						<p id="forum_debate__comments">50
+						<img class="forum_debate__containerCol-check" src="../assets/images/index-comment.png"
+							alt="Commentaires" style="transform: translateY(-0.1%)">
+						</p>
+						<p>commentaires</p>
+					</div>
+					<div class="forum_debate__containerLine">
+						<p id="forum_debate__time">3heures
+						<img class="forum_debate__containerCol-check" src="../assets/images/index-time.png"
+							alt="Commentaires" style="transform: translateY(-0.1%)">
+						</p>
+						<p>depuis le dernier post</p>
+					</div>
+				</div>
+	</div>
+
+
+
+	<!--debate recent -->
+
+	<div class="forum_debate__container">
+			<p class="forum_reply_date">25/09/19</p>
+
+					<div class="username_discussions">
+						<img class="username_profile_image" src="../assets/images/profile_username2.svg">
+						<div class="username_details">
+							<p class="username_pseudo">Les gestes de prévention</p>
+							<p class="username_type">Margot R - Infirmière
+								<img src="../assets/images/check_logo.svg"/>
+							</p>
+						</div>
+					</div>
+
+
+					<div class="index__containerColumn">
+						<button class="index__tag">#patient</button>
+						<button class="index__tag">#citoyen</button>
+						<button class="index__tag">#généralité</button>
+						<button class="index__tag">#prévention</button>
+					</div>
+
+					<div class="forum_debate__containerColumn">
+						<div class="forum_debate__containerLine">
+							<p id="forum_debate__comments">50
+							<img class="forum_debate__containerCol-check" src="../assets/images/index-comment.png"
+								alt="Commentaires" style="transform: translateY(-0.1%)">
+							</p>
+							<p>commentaires</p>
+						</div>
+						<div class="forum_debate__containerLine">
+							<p id="forum_debate__time">3heures
+							<img class="forum_debate__containerCol-check" src="../assets/images/index-time.png"
+								alt="Commentaires" style="transform: translateY(-0.1%)">
+							</p>
+							<p>depuis le dernier post</p>
+						</div>
+					</div>
+		</div>
+
+		<a href="#" class="show_more_button">
+				Afficher plus
+		</a>
+
+	
+
+
+	</div>
+
+	<footer class="index-footer">
+			<ul>
+				<li><a href="./index.php">A Propos</a></li>
+				<li><a href="./index.php">A Ressources</a></li>
+				<li><a href="./forum.php">Forum</a></li>
+				<li class="index-footer__menuSpan"><a href="#">FAIRE UN DON</a></li>
+				<li class="index-footer__menuSpan index-footer__menuSpan2"><a href="#">S'INSCRIRE À LA NEWSLETTER</a></li>
+				<li class="index-footer__follow">
+					<p>Suivez-nous</p>
+					<nav class="index-footer__container">
+						<a href="#"><img src="../assets/images/twitter.svg"></a>
+						<a href="#"><img src="../assets/images/facebook.svg"></a>
+						<a href="#"><img src="../assets/images/linkedin.svg"></a>
+						<a href="#"><img src="../assets/images/pinterest.svg"></a>
+					</nav>
+		
+					<nav class="index-footer__container">
+						<a href="#">Conditions <br/>générales</a>
+						<img src="../assets/images/footer-line.svg" alt="">
+						<a href="#">Mentions légales</a>
+						<img src="../assets/images/footer-line.svg" alt="">
+						<a href="#">Contact</a>
+					</nav>
+		
+					<p class="index-footer__center">Copyright © Cancer Contribution : construire ensemble les pratiques de
+						demain – Thème Glob par FameThemes</p>
+				</li>
+			</ul>
+		</footer>
+
+  <!-- Code ends here -->
+  <script src="./scripts/index.js"></script>
+</body>
+
+</html>
