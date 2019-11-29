@@ -1,0 +1,6 @@
+<svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="25" cy="25" r="25" transform="translate(0 0)" fill="#3b5998"/>
+    <path id="Tracé_8" data-name="Tracé 8"
+          d="M48.369,33.536H45.106V45.354H40.163V33.536H37.812V29.382h2.351V26.695c0-1.922.923-4.932,4.987-4.932l3.662.015V25.81H46.155a1,1,0,0,0-1.049,1.132v2.444H48.8Z"
+          transform="translate(-18.659 -8.367)" fill="#fff"/>
+</svg>

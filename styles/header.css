@@ -21,14 +21,23 @@
 .header__inputMenu {
     height: 40px;
     padding-left: 3%;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 45px;
     background: none;
     border: none;
     color: #0066CC;
     font-family: "RalewayRegular";
     font-size: 14px;
     outline: none;
+}
+
+.header__inputMenu > img {
+    display: none;
+    width: 32px;
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+    position: relative;
+    left: 3px;
 }
 
 .header__logo {
