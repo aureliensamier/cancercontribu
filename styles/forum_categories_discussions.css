@@ -108,12 +108,12 @@ body{
 
 .forum_categories_discussions__part2 {
     margin: 3vw;
-    position: relative;
 }
 
 .forum_categories_discussions__part2 .reply {
     display: flex;
     flex-direction: column;
+    text-align: right;
 
 }
 
@@ -121,14 +121,13 @@ body{
     font-family: 'RalewayLight';
     color:#B5B5B5;
     font-size: 14px;
-    position: absolute;
-    right: 0px;
 }
 .forum_categories_discussions__part2 .username_discussions{
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 50px;
+    padding:10px;
 }
 
 .forum_categories_discussions__part2 .username_details .username_type{
